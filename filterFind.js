@@ -38,8 +38,13 @@ console.log(youngPeople)
 const accountants = people.filter((item) => item.position === 'accountant')
 console.log(accountants)
 
+//with filter you do this
+console.log(accountants[0].position)
+
 //to find
 const john = people.find((item) => item.name === 'john')
 console.log(john)
+//with find you do this
+console.log(john.position)
 
 // note if you have multiple output when using FIND you will get only the first value
