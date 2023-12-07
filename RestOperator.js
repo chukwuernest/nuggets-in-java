@@ -26,3 +26,5 @@ const { firstName, ...others } = person
 console.log(firstName, others)
 //note const {...rest,firstname} will not work
 //function
+
+//rest is when we declare a function and spreed is when we invoke the function
